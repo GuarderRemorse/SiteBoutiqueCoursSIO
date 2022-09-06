@@ -1,0 +1,93 @@
+/* Header */
+
+.menu {
+    width: 100%;
+    height: 66px;
+    background: #263238;
+    line-height: 66px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: 35px;
+    letter-spacing: 1px;
+}
+
+.m-left {
+    float: left;
+}
+
+.m-right {
+    float: right;
+}
+
+.m-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.m-link i {
+    margin-right: 5px;
+}
+
+.m-link:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* Accueil */
+
+.accueil {
+    background-color: #CFD8DC;
+    font-weight: 400;
+    width: 90%;
+    height: 85%;
+    margin: 2em auto;
+    padding: 0;
+}
+
+.accueil h1 {
+    margin: 0;
+    padding: 0.5em;
+}
+
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer i {
+    margin: 0 2px;
+    padding: 0;
+}
+
+.f-link {
+    margin: 0 1em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}

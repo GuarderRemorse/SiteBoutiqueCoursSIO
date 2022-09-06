@@ -1,0 +1,293 @@
+/* Header */
+
+.menu {
+    width: 100%;
+    height: 66px;
+    background: #616161;
+    line-height: 66px;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-style: 35px;
+    letter-spacing: 1px;
+}
+
+.m-left {
+    float: left;
+}
+
+.m-right {
+    float: right;
+}
+
+.m-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 15px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.m-link i {
+    margin-right: 5px;
+}
+
+.m-link:hover {
+    border-bottom: 2px solid white;
+}
+
+
+/* Menu categorie */
+
+.menu-categ {
+    width: 10em;
+    position: absolute;
+}
+
+.des-categ {
+    width: 10em;
+}
+
+.container-categ {
+    position: relative;
+    width: 50%;
+}
+
+.image-categ {
+    margin: 10px 0;
+    opacity: 1;
+    display: block;
+    width: 5em;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle-categ {
+    margin-left: 2em;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-categ:hover .image-categ {
+    opacity: 0.3;
+}
+
+.container-categ:hover .middle-categ {
+    opacity: 1;
+}
+
+.text-categ {
+    background-color: #9E9E9E;
+    font-size: 16px;
+    padding: 8px 16px;
+}
+
+.text-categ a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Accueil */
+
+.accueil {
+    background-color: #E0E0E0;
+    font-weight: 400;
+    width: 50%;
+    height: 50%;
+    margin: 2em auto;
+    padding: 0;
+}
+
+.accueil h1 {
+    margin: 0;
+    padding: 0.5em;
+}
+
+
+/* Produit */
+
+.produit {
+    background-color: #E0E0E0;
+    font-weight: 400;
+    width: 70%;
+    height: 80%;
+    margin: 2em auto;
+    align-content: center;
+    padding: 0;
+    overflow: auto;
+    border: black 1px solid;
+    position: static;
+}
+
+.produit section {
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.produit article {
+    background-color: #BDBDBD;
+    margin: 1em;
+    width: 100%;
+    height: 35%;
+}
+
+.image-p {
+    float: left;
+    width: 20%;
+}
+
+.desc-p {
+    float: right;
+    width: 80%;
+}
+
+.titre {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 900;
+    font-family: 'Roboto';
+    margin: 0;
+    width: 90%;
+}
+
+.desc {
+    font-weight: 700;
+    overflow: auto;
+    height: 50%;
+    width: 90%;
+    margin: 0;
+}
+
+.libelle {
+    font-weight: 400;
+    width: 90%;
+    margin: 0;
+}
+
+.prix {
+    font-weight: 400;
+    color: #2E7D32;
+    width: 90%;
+    margin: 0;
+}
+
+.ajout-panier {
+    width: 100%;
+    margin: 0;
+}
+
+.produit article img {
+    width: 10em;
+    height: 10em;
+    margin: 1em;
+}
+
+.produit article i {
+    position: sticky;
+    padding: 0 15px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    height: 36px;
+    width: 36px;
+}
+
+.produit article i :hover {
+    background: #455A64;
+    cursor: pointer;
+}
+
+
+/* Resume Panier */
+
+.resume {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1em;
+    padding-top: 50px;
+    height: 50px;
+    display: block;
+    text-align: left;
+}
+
+.resume a {
+    text-decoration: none;
+}
+
+
+/* Admin */
+
+.connexion {
+    margin: 1em auto;
+    width: 60%;
+}
+
+.connexion fieldset {
+    max-height: 500px;
+    padding: 16px;
+    border: 3px solid #263238;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.connexion legend {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+.connexion input {
+    margin: 10px 0;
+}
+
+.con-info {
+    margin: 1em auto;
+}
+
+
+/* Footer */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer i {
+    margin: 0 2px;
+    padding: 0;
+}
+
+.f-link {
+    margin: 0 1em;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
